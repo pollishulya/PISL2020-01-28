@@ -45,16 +45,17 @@ public class A_LIS {
         }
         //тут реализуйте логику задачи методами динамического программирования (!!!)
         int result = 0;
-        int[] sequence = new int[m.length];
+        int[] sequence = new int[m.length];//создаем массив последовательности размером данного нам массива
         for (int i = 0; i < sequence.length; i++) {
-            sequence[i] = 1;
+            sequence[i] = 1; //заполняем оследовательность единицами
             for (int j = 0; j <= i - 1; j++) {
-                if (m[j] < m[i] && sequence[j] + 1 > sequence[i]) {
+                if (m[j] < m[i] && sequence[j] + 1 > sequence[i]) {//итак, если предыдущий
+                    // элемент меньше нынешнего и преддущ+1 больше нынешнего, то добавяем эл-ту очереди единицу
                     sequence[i] = sequence[j] + 1;
                 }
             }
         }
-        for (int i = 0; i < sequence.length; i++) {
+        for (int i = 0; i < sequence.length; i++) {//а здесь ищем наибольший элемент if-else
             result = sequence[i] > result ? sequence[i] : result;
         }
         //!!!!!!!!!!!!!!!!!!!!!!!!!     КОНЕЦ ЗАДАЧИ     !!!!!!!!!!!!!!!!!!!!!!!!!

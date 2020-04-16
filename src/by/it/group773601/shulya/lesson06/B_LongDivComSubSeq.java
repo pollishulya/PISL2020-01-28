@@ -49,6 +49,8 @@ public class B_LongDivComSubSeq {
             sequence[i] = 1;
             for (int j = 0; j <= i - 1; j++) {
                 if (m[i] % m[j] == 0 && sequence[j] + 1 > sequence[i]) {
+                    //итак, если нынешний делится на предыдущий без остатка(кратный) и преддущ+1 больше нынешнего,
+                    // то добавяем эл-ту очереди единицу
                     sequence[i] = sequence[j] + 1;
                 }
             }

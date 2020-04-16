@@ -94,7 +94,7 @@ public class A_Huffman {
         char symbol; //символы хранятся только в листах
 
         LeafNode(int frequence, char symbol) {
-            super.
+
             this.symbol = symbol;
         }
 
