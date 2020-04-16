@@ -76,7 +76,7 @@ public class A_Knapsack {
         }
 
         int result = Arrays.stream(sums).max().getAsInt();
-        //!!!!!!!!!!!!!!!!!!!!!!!!!     КОНЕЦ ЗАДАЧИ     !!!!!!!!!!!!!!!!!!!!!!!!!
+        //!!!!!!!!!!!!!!!!!!!!!!!!!     КОНЕЦ ЗАДАЧИ     !!!!!!!!!!!!!!!!!!!!!!!!
         return result;
     }
 

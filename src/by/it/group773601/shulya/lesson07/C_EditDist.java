@@ -50,7 +50,7 @@ import java.util.Scanner;
 public class C_EditDist {
 
     String getDistanceEdinting(String one, String two) {
-        //!!!!!!!!!!!!!!!!!!!!!!!!!     НАЧАЛО ЗАДАЧИ     !!!!!!!!!!!!!!!!!!!!!!!!
+        //!!!!!!!!!!!!!!!!!!!!!!!!!     НАЧАЛО ЗАДАЧИ     !!!!!!!!!!!!!!!!!!!!!!!
         int[][] array = new int[one.length() + 1][two.length() + 1];
 
         for (int i = 0; i < one.length() + 1; i++) {

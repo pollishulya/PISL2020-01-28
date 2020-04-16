@@ -40,7 +40,7 @@ import java.util.Scanner;
 public class B_EditDist {
 
     int getDistanceEdinting(String one, String two) {
-        //!!!!!!!!!!!!!!!!!!!!!!!!!     НАЧАЛО ЗАДАЧИ     !!!!!!!!!!!!!!!!!!!!!!!!!
+        //!!!!!!!!!!!!!!!!!!!!!!!!!     НАЧАЛО ЗАДАЧИ     !!!!!!!!!!!!!!!!!!!!!!!!
         int[][] levensteignDistances = new int[one.length() + 1][two.length() + 1];
 
         for (int i = 0; i < one.length() + 1; i++) {

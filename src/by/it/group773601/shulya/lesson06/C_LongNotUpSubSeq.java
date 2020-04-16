@@ -87,7 +87,7 @@ public class C_LongNotUpSubSeq {
         Arrays.stream(indexes).forEach(index->System.out.print(index + " "));
         System.out.println();
 
-        //!!!!!!!!!!!!!!!!!!!!!!!!!     КОНЕЦ ЗАДАЧИ     !!!!!!!!!!!!!!!!!!!!!!!!!
+        //!!!!!!!!!!!!!!!!!!!!!!!!!     КОНЕЦ ЗАДАЧИ     !!!!!!!!!!!!!!!!!!!!!!!!
         return result;
     }
 
